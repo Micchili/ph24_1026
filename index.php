@@ -1,6 +1,6 @@
 <?php
 require_once 'Car.class.php';
-$car = new Car();
+$car = new Car("a","b","c");
 echo $car->getColor();
 echo $car->getType();
 echo $car->getNumber();

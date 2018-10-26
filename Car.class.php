@@ -5,11 +5,11 @@
     private $color;
     private $number;
 
-    public function __construct()
+    public function __construct($type,$color,$number)
     {
-      $this->type = "ban";
-      $this->color = "blue";
-      $this->numbar = "12-34";
+      $this->type = $type;
+      $this->color = $color;
+      $this->numbar = $number;
     }
 
     public function drive()
